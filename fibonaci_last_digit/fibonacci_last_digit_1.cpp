@@ -10,8 +10,8 @@ int fibonacci_last_digit(int n)
     fib[1] = 1;
     for(int i=2;i<=n;i++)
     {
-        fib[i] = (fib[i-1]%10 + fib[i-2]%10)%10;
-        
+        fib[i] = (fib[i-1]%10 + fib[i-2]%10)%10;     //DP Started by Kushagra- DrunkenNinjaCoder.
+                  
     }
     return fib[n];
 }
